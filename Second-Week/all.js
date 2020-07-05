@@ -38,6 +38,7 @@
 		 {
 		 var value = document.getElementById("result").value;
 		 document.getElementById("result").value = value.substr(0, value.length - 1);
+		 return 0;
 		 }
      
 	
@@ -111,6 +112,7 @@
 			alert("It is not a Palindrome");
 			return false;	
 		}
+		return 0;
 	}
 
 	function anagram(str1,str2)
